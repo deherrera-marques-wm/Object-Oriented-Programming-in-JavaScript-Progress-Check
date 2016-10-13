@@ -21,7 +21,7 @@ gaming().prototype.displayGaming = function() {
 
 Gaming.prototype.launchGaming = function () {
     document.write("<textarea rows = '6' cols='50' id=\'" + this.name + "\'>" + "Text area" + "</textarea><br><br>");
-    document.getElementById(this.name).innerHTML = "A piping hot serving of " + this.name + "!";
+    document.getElementById(this.name).innerHTML = "This  " + this.name + " is so crazy!";
 };
 
 function Fun(name, type, color) {
@@ -43,7 +43,7 @@ Fun.prototype.launchGaming = function() {
         "Text area" + "</textarea><br><br>");
     var output = "";
     output += "Downloading...\n";
-    output += "YAY Fun";
+    output += "YAY!! time to have some fun";
     document.getElementById(this.name).innerHTML = output;
 };
 
