@@ -19,7 +19,6 @@ gaming().prototype.displayGaming = function() {
 
 };
 
-// encapsulates a method to launch the Vehicle
 Gaming.prototype.launchGaming = function () {
     document.write("<textarea rows = '6' cols='50' id=\'" + this.name + "\'>" + "Text area" + "</textarea><br><br>");
     document.getElementById(this.name).innerHTML = "A piping hot serving of " + this.name + "!";
@@ -50,9 +49,7 @@ Fun.prototype.launchGaming = function() {
 
 
 function main() {
-    //instantiate an array to hold vehicles
     var gameArray = [];
-    //populate the vehicle array with objects and subclass objects
     gameArray[0] = new Gaming("Xbox One", "Original");
     gameArray[1] = new Fun("Xbox One", "Slim", "White");
 
